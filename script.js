@@ -41,3 +41,11 @@ document.addEventListener("DOMContentLoaded", () => {
         renderer.setSize(window.innerWidth, window.innerHeight);
     });
 });
+
+// Add this to the existing DOMContentLoaded event
+document.querySelector('.scroll-indicator').addEventListener('click', () => {
+    window.scrollTo({
+      top: window.innerHeight * 0.8,
+      behavior: 'smooth'
+    });
+  });
