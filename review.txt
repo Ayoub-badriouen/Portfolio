@@ -10,6 +10,11 @@ github links
 Remove linkedin
 
 
+header on mobile  should be horizontal
+
+we have no idea that we gotta scroll down after the three.js thingy maybe i should a hint to user but without penalizing the aesthetics
+
+
 <section id="skills">
             <h2>Skills</h2>
             <ul>
