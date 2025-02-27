@@ -1,3 +1,13 @@
+/* Ajoutez ceci en haut de styles.css */
+html {
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 /* General Styles */
 body {
     font-family: 'Arial', sans-serif;
@@ -276,7 +286,3 @@ html {
     margin-right: 10px;
 }
 
-.highlight {  
-    color: #FF3131;  
-    font-weight: bold;  
-  }  
