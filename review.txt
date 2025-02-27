@@ -1,0 +1,26 @@
+to fix, hello world
+
+
+skills
+
+about me
+
+github links
+
+Remove linkedin
+
+
+<section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <i class="fas fa-database"></i> <strong>Gestion de base de données:</strong> PostgreSQL, Oracle SQL (PL/SQL), MySQL, UML <br>
+                <i class="fas fa-code"></i> <strong>Programmation orientée objet:</strong> Java, C, C++, Python <br>
+                <i class="fas fa-globe"></i> <strong>Technologies web:</strong> HTML/CSS, JavaScript, Bootstrap, Node.js, Express, MongoDB, PHP, JSON, Three.js <br>
+                <i class="fas fa-desktop"></i> <strong>Système d'exploitation:</strong> Windows, Linux (Ubuntu, NixOS, Debian)<br>
+                <i class="fas fa-brain"></i> <strong>Programmation fonctionnelle:</strong> Haskell<br>
+                <i class="fas fa-tools"></i> <strong>Technologies et Outils:</strong> MATLAB, Arduino<br>
+                <i class="fas fa-robot"></i> <strong>Intelligence Artificielle:</strong> NumPy, Pandas, Matplotlib, scikit-learn, Tkinter<br>
+                <i class="fas fa-code-branch"></i> <strong>Contrôle de version:</strong> Git, GitLab, GitHub<br>
+                <i class="fas fa-user-secret"></i> <strong>Cybersécurité:</strong> Expérience avec TryHackMe<br>
+            </ul>
+        </section>
