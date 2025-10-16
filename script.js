@@ -18,15 +18,19 @@ document.addEventListener("DOMContentLoaded", () => {
         document.body.classList.toggle("dark-mode");
     });
 
-    // Smooth Scrolling
-    document.querySelectorAll("nav a").forEach(anchor => {
+// Smooth Scrolling for internal links only
+document.querySelectorAll("nav a").forEach(anchor => {
+    const href = anchor.getAttribute("href");
+    if (href.startsWith("#")) { // only internal anchors
         anchor.addEventListener("click", function(event) {
             event.preventDefault();
-            document.querySelector(this.getAttribute("href")).scrollIntoView({
+            document.querySelector(href).scrollIntoView({
                 behavior: "smooth"
             });
         });
-    });
+    }
+});
+
 
     // Form Submission Handling
     document.getElementById("contact-form").addEventListener("submit", (event) => {
